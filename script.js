@@ -19,7 +19,7 @@ timeline:"so tired from all this learning!"
 var userNamePrompt = prompt("whats your username?");
 var passwordPrompt = prompt("whats your password?");
 
-function signIn(user, password)
+function signIn(user, pass)
 {
 	if (user===database[0].username &&
 		pass===database[0].password)
