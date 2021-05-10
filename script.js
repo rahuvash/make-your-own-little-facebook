@@ -30,3 +30,4 @@ function signIn(user, password)
  	alert("sorry , wrong username and password");
  }
 }
+signIn(userNamePrompt, passwordPrompt);
