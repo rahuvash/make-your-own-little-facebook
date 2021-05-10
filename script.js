@@ -3,17 +3,19 @@ var database=[
 	username: "rahul vashisth",
 	password: "rahuvas"
 }
+
 ];
 
-var newsfeed =[
+var newsFeed =[
 {
-username :"bobby",
+username: "bobby",
 timeline:"so tired from all this learning!"
 },
 {
-	username : "selly",
+	username: "selly",
 	timeline: "javascript is so cool!"
 }
+
 ];
 
 var userNamePrompt = prompt("whats your username?");
@@ -23,11 +25,11 @@ function signIn(user, pass)
 {
 	if (user===database[0].username &&
 		pass===database[0].password)
- console.log(newsfeed);
+ console.log(newsFeed);
 
  else
  {
  	alert("sorry , wrong username and password");
  }
 }
-signIn(userNamePrompt, passwordPrompt);
+signIn(userNamePrompt,passwordPrompt);
