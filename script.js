@@ -21,7 +21,7 @@ var passwordPrompt = prompt("whats your password?");
 
 function signIn(user, password)
 {
-	if (user===database[0].username) &&
+	if (user===database[0].username &&
 		pass===database[0].password)
  console.log(newsfeed);
 
